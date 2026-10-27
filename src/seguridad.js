@@ -1,3 +1,4 @@
+//Gestiona información o niveles de riesgo de seguridad por sectores.
 export function leerZonasCSV(texto){
   const lineas = texto.replace(/^\uFEFF/,'').trim().split(/\r?\n/).filter(Boolean);
   if(lineas.length<2)throw new Error('El CSV está vacío');

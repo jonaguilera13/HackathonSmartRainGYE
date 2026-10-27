@@ -1,3 +1,4 @@
+// Se trata de guardar los datos usados en el proyecto.
 export const GUAYAQUIL = [-2.1794, -79.9000];
 export const VOLUNTARIO = { lat: -2.1482, lng: -79.9012, sector: 'Kennedy Norte (origen ilustrativo)' };
 export const LUGARES = [

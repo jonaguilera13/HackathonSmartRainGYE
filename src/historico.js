@@ -1,3 +1,4 @@
+// Maneja información histórica de lluvias.
 export async function cargarHistoricoLluvia(lat,lng,signal){
   const base='https://archive-api.open-meteo.com/v1/archive';
   const args=new URLSearchParams({latitude:String(lat),longitude:String(lng),start_date:'2020-01-01',end_date:'2025-12-31',daily:'precipitation_sum',timezone:'America/Guayaquil'});

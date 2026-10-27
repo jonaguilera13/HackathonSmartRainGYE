@@ -1,3 +1,4 @@
+// Esta se trata de organizar la aplicación
 import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { Activity, ArrowRight, Bell, BookOpen, Check, CheckCircle2, ChevronDown, ChevronRight, CloudRain, Compass, Database, Droplets, ExternalLink, HandHeart, HeartHandshake, History, Info, Layers, LifeBuoy, LoaderCircle, FileUp, Map, MapPin, Navigation, Plus, RefreshCcw, Route, Send, ShieldAlert, ShieldCheck, SlidersHorizontal, Sparkles, Users, Waves, X } from 'lucide-react';
 import Mapa from './Mapa.jsx';

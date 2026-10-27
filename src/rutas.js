@@ -1,3 +1,4 @@
+//Calcula o gestiona rutas alternativas, rápidas o seguras.
 import { ZONAS_INUNDACION_DEMO, ZONAS_SEGURIDAD_DEMO } from './datos.js';
 
 const R = 6371000;

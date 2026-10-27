@@ -1,3 +1,4 @@
+//Muestra el mapa interactivo de Guayaquil.
 import React, { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import { GUAYAQUIL, VOLUNTARIO, ZONAS_INUNDACION_DEMO, ZONAS_SEGURIDAD_DEMO } from './datos.js';

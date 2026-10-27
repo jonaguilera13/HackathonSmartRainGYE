@@ -1,3 +1,4 @@
+//Contiene lógica relacionada con pronósticos o escenarios de lluvia.
 export async function consultarPronostico(lat, lng, signal) {
   const argumentos = new URLSearchParams({ lat: String(lat), lng: String(lng) });
   try {
